@@ -4,8 +4,9 @@
     </h1>
 
     <ul>
-        <li><a><RouterLink to="/projects">Projects Documentation</RouterLink></a></li>
-        <li><a><RouterLink to="/Documentation/General">General Documentation</RouterLink></a></li>
+            <li>
+                <a href=""><slot name="entry"></slot></a>
+            </li>
     </ul>
 
 </template>

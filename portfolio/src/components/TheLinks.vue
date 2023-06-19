@@ -20,7 +20,7 @@ import LinksItem from './LinksItem.vue'
 
         <template #icon>
             <a href="https://open.spotify.com/" target="_blank" rel="noopener">
-                <img alt="Spotify Logo" class="logo" src="@/assets/spotifylogo.png" width="50" height="35" />
+                <img alt="Spotify Logo" class="logo" src="@/assets/spotifylogo.png" width="55" height="30" />
             </a>
         </template>
         <template #heading>Spotify</template>
