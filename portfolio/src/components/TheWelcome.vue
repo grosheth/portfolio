@@ -42,4 +42,5 @@ import EcosystemIcon from './icons/IconEcosystem.vue'
 
   </WelcomeItem>
 
+
 </template>
