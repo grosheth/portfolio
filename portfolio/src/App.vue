@@ -12,7 +12,7 @@ import Menu from './components/Menu.vue'
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">Doc</RouterLink>
+        <RouterLink to="/documentation">Doc</RouterLink>
         <RouterLink to="/projects">Projects</RouterLink>
         <RouterLink to="/links">Links</RouterLink>
       </nav>

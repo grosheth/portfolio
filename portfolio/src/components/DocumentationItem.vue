@@ -1,7 +1,13 @@
 <template>
-  <div class="item">
-    <slot name="heading"></slot>
-  </div>
+    <h1>
+        <slot name="heading"></slot>
+    </h1>
+
+    <ul>
+        <li><a href="">Projects Documentation</a></li>
+        <li><a><RouterLink to="/Documentation/General">Home</RouterLink></a></li>
+    </ul>
+
 </template>
 
 <style scoped>

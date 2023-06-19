@@ -23,6 +23,11 @@ const router = createRouter({
       path: '/links',
       name: 'links',
       component: () => import('../views/LinksView.vue')
+    },
+    {
+      path: '/documentation/general',
+      name: 'personalDoc',
+      component: () => import('../views/GeneralDocView.vue')
     }
     
   ]

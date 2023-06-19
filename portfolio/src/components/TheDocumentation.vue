@@ -4,8 +4,6 @@ import DocItems from './DocumentationItem.vue'
 
 <template>
     <DocItems>
-        <template #heading>
-            <p>test</p>
-        </template>
+        <template #heading> Documentation</template>
     </DocItems>
 </template>
