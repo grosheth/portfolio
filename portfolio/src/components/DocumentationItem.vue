@@ -4,8 +4,8 @@
     </h1>
 
     <ul>
-        <li><a href="">Projects Documentation</a></li>
-        <li><a><RouterLink to="/Documentation/General">Home</RouterLink></a></li>
+        <li><a><RouterLink to="/projects">Projects Documentation</RouterLink></a></li>
+        <li><a><RouterLink to="/Documentation/General">General Documentation</RouterLink></a></li>
     </ul>
 
 </template>

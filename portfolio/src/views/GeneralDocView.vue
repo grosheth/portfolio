@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import TheDoc from '../components/TheDocumentation.vue'
 </script>
 
 <template>
   <div class="Doc">
-    <h1>General Doc</h1>
+    <h1>General Documentation</h1>
   </div>
 </template>
 

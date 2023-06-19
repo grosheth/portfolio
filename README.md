@@ -5,11 +5,6 @@
     The goal is have a self-hosted personal Documentation and also Documentation for each of my Github Projects
 
 
+## Adding documentation
 
-## Tools to use
-
-    - JavaScript maybe Typescript
-    - Vue.js
-    - Github Actions
-    - Nginx as proxy on the Public server
-    - TBD ...
+The documentation is found in the "documentation" folder. Add or modify .md files to change the documentation

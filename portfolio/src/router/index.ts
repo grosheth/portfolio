@@ -26,7 +26,7 @@ const router = createRouter({
     },
     {
       path: '/documentation/general',
-      name: 'personalDoc',
+      name: 'general',
       component: () => import('../views/GeneralDocView.vue')
     }
     
