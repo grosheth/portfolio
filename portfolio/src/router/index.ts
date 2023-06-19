@@ -14,6 +14,7 @@ const router = createRouter({
       name: 'documentation',
       component: () => import('../views/DocumentationView.vue')
     },
+    // Need to know how to load .md files for documentation
     {
       path: '/documentation/*',
       name: 'documentation',
