@@ -8,7 +8,7 @@
 
 ## Tools to use
 
-    - JavaScript
+    - JavaScript maybe Typescript
     - Vue.js
     - Github Actions
     - Nginx as proxy on the Public server
