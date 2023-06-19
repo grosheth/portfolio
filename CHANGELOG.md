@@ -5,3 +5,5 @@
 - Create the projects section and add full example with the Discord Bot project
 
 - Create the Documentation section, This section needs to be separated into categories. Github documentations for projects and personal documentation
+
+- Change Home Logo

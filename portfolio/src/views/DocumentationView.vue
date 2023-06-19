@@ -4,7 +4,7 @@ import TheDoc from '../components/TheDocumentation.vue'
 
 <template>
   <div class="Doc">
-    <TheLinks />
+    <TheDoc />
   </div>
 </template>
 
