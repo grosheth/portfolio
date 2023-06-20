@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 
 import { mount } from '@vue/test-utils'
-import Menu from '../Menu.vue'
+import Menu from '../TheMenu.vue'
 
 describe('Menu', () => {
   it('renders properly', () => {

@@ -1,13 +1,20 @@
-<template>
-    <h1>
-        <slot name="heading"></slot>
-    </h1>
+<script setup lang="ts">
+defineProps<{
+  docs: string
+}>()
+</script>
 
-    <ul>
-            <li>
-                <a href=""><slot name="entry"></slot></a>
-            </li>
-    </ul>
+
+<template>
+  <h1>
+    <slot name="heading"></slot>
+  </h1>
+
+  <ul>
+    <li>
+      <a href=""><slot name="entry">{{ docs }}</slot></a>
+    </li>
+  </ul>
 
 </template>
 

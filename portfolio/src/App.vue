@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import Menu from './components/Menu.vue'
+import Menu from './components/TheMenu.vue'
 </script>
 
 <template>
@@ -11,11 +11,12 @@ import Menu from './components/Menu.vue'
       <Menu msg="Aless's Portfolio" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/documentation">Doc</RouterLink>
-        <RouterLink to="/projects">Projects</RouterLink>
-        <RouterLink to="/links">Links</RouterLink>
+          <RouterLink to="/">Home</RouterLink>
+          <RouterLink to="/documentation">Doc</RouterLink>
+          <RouterLink to="/projects">Projects</RouterLink>
+          <RouterLink to="/links">Links</RouterLink>
       </nav>
+
     </div>
   </header>
 
