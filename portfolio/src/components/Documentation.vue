@@ -4,8 +4,10 @@ import DocItems from './DocumentationItem.vue'
 
 <template>
 
-    <DocItems docs='[ test ]'>
+    <DocItems docs=''>
         <template #heading> Documentation</template>
     </DocItems>
+
+
 
 </template>

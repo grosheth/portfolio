@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import Menu from './components/TheMenu.vue'
+import Menu from './components/Menu.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img alt="Vue logo" class="logo" src="@/assets/logos/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
       <Menu msg="Aless's Portfolio" />
@@ -21,12 +22,24 @@ import Menu from './components/TheMenu.vue'
   </header>
 
   <RouterView />
+
+  <footer class="bottom">
+      <Footer msg="Test"></Footer>
+  </footer>
+  
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
+}
+
+footer {
+  line-height: 1.5;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
 }
 
 .logo {
@@ -84,5 +97,12 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
+
+  footer {
+    font-weight: 500;
+    position: absolute;
+    bottom: 0px;
+  }
+
 }
 </style>
