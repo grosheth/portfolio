@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import Menu from './components/Menu.vue'
-import Footer from './components/Footer.vue'
 </script>
 
 <template>
@@ -24,7 +23,7 @@ import Footer from './components/Footer.vue'
   <RouterView />
 
   <footer class="bottom">
-      <Footer msg="Test"></Footer>
+      <Footer msg=""></Footer>
   </footer>
   
 </template>
@@ -100,7 +99,6 @@ nav a:first-of-type {
 
   footer {
     font-weight: 500;
-    position: absolute;
     bottom: 0px;
   }
 

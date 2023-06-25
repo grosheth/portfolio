@@ -1,6 +1,10 @@
+<script setup lang="ts">
+import Projects from '../components/Projects.vue'
+</script>
+
 <template>
-  <div class="projects">
-    <h1>This is my projects page</h1>
+  <div class="Links">
+    <Projects />
   </div>
 </template>
 

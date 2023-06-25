@@ -4,18 +4,10 @@ defineProps<{
 }>()
 </script>
 
-
 <template>
-  <h1>
-    <slot name="heading"></slot>
-  </h1>
-
-  <ul>
-    <li>
-      <a href=""><slot name="entry">{{ docs }}</slot></a>
-    </li>
-  </ul>
-
+  <h1></h1>
+  <textarea v-model="markdown"></textarea>
+  <div v-html="markdownToHtml"></div>
 </template>
 
 <style scoped>
