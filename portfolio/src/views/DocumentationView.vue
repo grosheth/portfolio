@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import TheDoc from '../components/TheDocumentation.vue'
+import TheDoc from '../components/Documentation.vue'
 </script>
 
 <template>

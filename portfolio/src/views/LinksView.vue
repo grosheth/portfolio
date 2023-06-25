@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import TheLinks from '../components/TheLinks.vue'
+import TheLinks from '../components/Links.vue'
 </script>
 
 <template>
