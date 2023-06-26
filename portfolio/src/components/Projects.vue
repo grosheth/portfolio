@@ -7,6 +7,6 @@ defineProps<{
 
 <template>
     <ProjectItem>
-        <template #heading> Test</template>
+        <template #heading> Card For One Project</template>
     </ProjectItem>
 </template>
