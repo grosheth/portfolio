@@ -1,20 +1,33 @@
 <script>
 import { marked } from 'marked';
+
+
 export default {
+  props: {
+    docs: String
+  },
+
   name: 'App',
- data(){
-   return {
-     markdown:  "",
-   };
- },
- computed: {
-   markdownToHtml(){
-     return marked(this.markdown);
-   }
- }
+  data(){
+    // Get documentation content from /documentation folder
+    return {
+      markdown:  "# LOL \n ## LOL \n ### Newline",
+    };
+  },
+  computed: {
+    markdownToHtml(){
+      return marked(this.markdown);
+    }
+  }
 }
 
 </script>
+
+<template>
+  <!-- <textarea v-model="markdown"></textarea> -->
+  <div v-html="markdownToHtml"></div>
+</template>
+
 
 <style>
 #app {
@@ -26,9 +39,4 @@ export default {
   margin-top: 60px;
 }
 </style>
-
-<template>
-  <textarea v-model="markdown"></textarea>
-  <div v-html="markdownToHtml"></div>
-</template>
 
