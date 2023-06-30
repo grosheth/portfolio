@@ -1,11 +1,11 @@
-# Linux
+# Linux \n
 
-## This documentation is for Linux related subjects
+## This documentation is for Linux related subjects \n
 
 
-## Commands
-### General
+## Commands \n
+### General \n
 
-- fndjksfnjdn
-- ifksdnfjsdn
-- fsdfdf
+- fndjksfnjdn \n
+- ifksdnfjsdn \n
+- fsdfdf \n

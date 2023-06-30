@@ -1,7 +1,6 @@
 <script>
 import { marked } from 'marked';
 
-
 export default {
   props: {
     docs: String
