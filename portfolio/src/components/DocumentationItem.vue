@@ -10,7 +10,7 @@ export default {
   data(){
     // Get documentation content from /documentation folder
     return {
-      markdown:  "# LOL \n ## LOL \n ### Newline",
+      markdown:  "# LOL \n ## LOL \n ### Newline \n Replace this text with content from .md",
     };
   },
   computed: {
