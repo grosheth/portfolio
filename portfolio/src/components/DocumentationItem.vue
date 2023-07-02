@@ -1,10 +1,15 @@
 <script>
 import { marked } from 'marked';
+import { doc } from '../documentation/linux.md';
 
 export default {
+  
+
+
   props: {
     docs: String
   },
+  
 
   name: 'App',
   data(){
